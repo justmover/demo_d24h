@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  d24h_demo-app:
+    build: ../../..
+    container_name: d24h_demo-app
+    # environment:
+    ports:
+      - 8081:8081
